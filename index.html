@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script defer src="https://use.fontawesome.com/releases/v5.11.2/js/all.js"></script>
+
+  <title>PORTFOLIO!</title>
+</head>
+
+<body>
+  <!-- NavBar -->
+  <nav class="navbar fixed-top navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">WebsiteNaam <i class="far fa-folder-open"></i></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+        <a class="nav-item nav-link" href="#blender">Blender</a>
+        <a class="nav-item nav-link" href="#unity">Unity</a>
+        <a class="nav-item nav-link" href="#about">About</a>
+        <a class="nav-item nav-link" href="#contact"><i class="fas fa-id-card-alt"></i></a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Welcome -->
+  <div id="home" class="d-flex flex-column bg-transparent" style="padding-top: 300px; padding-bottom: 370px;">
+    <div class="d-flex p-2 justify-content-center">
+      <h2>WELCOME!</h2>
+    </div>
+    <div class="d-flex p-2 justify-content-center">
+      <p>Hi there, this is my portfolio of some of my projects I made.</p>
+    </div>
+  </div>
+
+  <!-- Portfolio -->
+  <div id="portfolio" class="d-flex flex-column bg-dark text-white">
+    <div class="d-flex p-2 bd-highlight section justify-content-center">
+      <h2>PORTFOLIO</h2>
+    </div>
+    <div class="d-flex justify-content-center">
+      <p>Here are some of my renders I made using the program 'Blender'. To view more about one of the renders, click on the 'Details' button.</p>
+    </div>
+    <div class="d-flex flex-row bd-highlight mb-3 justify-content-center">
+      <div class="d-flex p-2 bd-highlight">
+        <div class="card" style="width: 18rem;">
+          <img src="Render_1.png" class="card-img-top card-picture" alt="My first donut render">
+          <div class="card-body card-details-text">
+            <h5 class="card-title">Donut render</h5>
+            <p class="card-text">This is a render of a donut, made using texture painting.</p>
+            <br>
+            <a href="#" class="btn btn-info" data-toggle="modal" data-target=".firstModal">Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex p-2 bd-highlight">
+        <div class="card" style="width: 18rem;">
+          <img src="Render_4.png" class="card-img-top card-picture" alt="My first donut render">
+          <div class="card-body card-details-text">
+            <h5 class="card-title">Kitchen render</h5>
+            <p class="card-text" style="color: black">I did this project to learn about environments and scenes with multiple objects.</p>
+            <a href="#" class="btn btn-info" data-toggle="modal" data-target=".secondModal">Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex p-2 bd-highlight">
+        <div class="card" style="width: 18rem;">
+          <img src="Render_3.png" class="card-img-top card-picture" alt="My first donut render"
+            style="object-position: 0px -270px;">
+          <div class="card-body card-details-text">
+            <h5 class="card-title">Towel render</h5>
+            <p class="card-text">Here is a render of a towel, made using cloth simulation</p>
+            <br>
+            <a href="#" class="btn btn-info" data-toggle="modal" data-target=".thirdModal">Details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex flex-row justify-content-center" style="padding-bottom: 100px;">
+      <div class="d-flex p-2 bd-highlight">
+        <div class="card" style="width: 18rem;">
+          <img src="CoffeeRender1.png" class="card-img-top card-picture" alt="My first donut render">
+          <div class="card-body card-details-text">
+            <h5 class="card-title">Coffee cup render</h5>
+            <p class="card-text">Here is a render of a cup filled with coffee, using fluid simulation</p>
+            <a href="#" class="btn btn-info" data-toggle="modal" data-target=".fourthModal">Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex p-2 bd-highlight">
+        <div class="card" style="width: 18rem;">
+          <img src="DonutCupRender_1.png" class="card-img-top card-picture" alt="My first donut render">
+          <div class="card-body card-details-text">
+            <h5 class="card-title">Breakfast render</h5>
+            <p class="card-text">Here is a render of a tea cup and a donut.
+            </p>
+            <br>
+            <a href="#" class="btn btn-info" data-toggle="modal" data-target=".fifthModal">Details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Blender Box-->
+  <div id="blender" class="d-flex flex-column bg-dark text-white" style="padding: 30px; padding-left: 400px; padding-right: 400px; padding-bottom: 100px; padding-top: 100px" >
+    <div class="d-flex justify-content-center p-2 bd-highlight">
+      <h3>BLENDER <i class="fas fa-cube"></i></h3>
+    </div>
+    <div class="d-flex justify-content-center p-2 bd-highlight">
+      <p class="text-center"><a style="color: white; text-decoration: underline;" href="blender.org">Blender</a> is a free open-source 3D
+        modelling software with a lot of powerfull tools.
+        I use it for almost all of my projects, like the projects above in my portfolio.
+        Blender is software easy to pick-up for beginners, but still has a lot of powerfull
+        tools and a lot of potential for professionals. Blender uses a lot of handy shortcuts,
+        which increases productivity a lot. It also has some powerfull tools like sculpting,
+        texturepainting, a simulator for fluids and textiles and a powerfull node editor
+        for creating materials. I have been using Blender for about three years now. I tried
+        creating all sorts of projects, like using particles, hairs, materials, textures, sculpting 
+        etc. 
+      </p>
+    </div>
+  </div>
+
+  <!-- Unity Box-->
+  <div id="unity" class="d-flex flex-column text-dark" style="padding: 30px; padding-left: 400px; padding-right: 400px; padding-bottom: 100px; padding-top: 100px" >
+    <div class="d-flex justify-content-center p-2 bd-highlight">
+      <h3>UNITY</h3>
+    </div>
+    <div class="d-flex justify-content-center p-2 bd-highlight">
+      <p class="text-center"><a style="color: white; text-decoration: underline;" href="blender.org">Unity</a> Unity is a free
+        game-engine, using C# as scripting language. It is easy to pick up, however it has a lot of powerfull tools for more
+        experienced users. I use unity for about three years now, I made multiple small projects, like tic-tac-toe. In one of my
+        more recent projects I created a simple neural-network, which I used to train the computer to drive around a 2D circuit.
+      </p>
+    </div>
+  </div>
+
+  <!-- About Box -->
+  <div id="about" class="d-flex flex-column bg-dark text-white" style="padding: 30px; padding-left: 400px; padding-right: 400px; padding-bottom: 100px; padding-top: 100px">
+    <div class="d-flex justify-content-center p-2 bd-highlight">
+      <h3>ABOUT ME</h3>
+    </div>
+    <div class="d-flex justify-content-center p-2 bd-highlight">
+      <p class="text-center">My name is Bas, I'm in highschool, and I like creating 3D art, games and websites on my computer.
+        I have used Blender for like three years now. I like working on big projects, and seeing it all come together. 
+        A year ago I started building a game with a friend of mine. It was one of my bigger projects, and it was really fun to do.
+        For this I used unity, which is a game-engine using the coding language C#.
+      </p>
+    </div>
+  </div>
+
+  <!-- Contact Box -->
+  <div id="contact" class="d-flex flex-column bg-info text-white" style="padding: 30px; padding-left: 400px; padding-right: 400px; padding-bottom: 100px; padding-top: 100px">
+    <div class="d-flex p-2 bd-highlight justify-content-center">
+      <h3>CONTACT</h3>
+    </div>
+    <div class="d-flex p-2 bd-highlight justify-content-center">
+      <p class="text-center">All the pictures in my portfolio are free for you to use as sprites or concept images, only under mention of
+        "WEBSITENAAM/NAAM".
+      </p>
+    </div>
+  </div>
+
+  <div class="d-flex flex-column" style="padding-left: 400px; padding-right: 400px;">
+    <div class="d-flex p-2 bd-highlight justify-content-center">
+      <p class="text-center">
+        <br> For more information you can contact me via:
+        <br> E-mail: bas.oudejans@kpnmail.nl
+        <br> Instagram: 
+        <br> 
+      </p>
+    </div>
+  </div>
+
+  <!-- MODALS -->
+  <div class="modal fade firstModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="d-flex p-2 bd-highlight">
+          <img src="Render_1.png" alt="Donut picture" width="100%" height="100%">
+        </div>
+        <div class="d-flex p-2 bd-highlight">
+          <p>This is a render of a donut I made using Blender. I created the bun using sculpting and texturepainting. I
+            add the icing with more sculpting and added different kinds of sprinkles on top
+          </p>
+        </div>
+        <div class="d-flex p-2 bd-highlight">
+          <p>Facts:
+            <br> - 500 sprinkle particles
+            <br> - Took about 20 minutes to render
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade secondModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="d-flex p-2 bd-highlight">
+          <img src="Render_4.png" alt="Donut picture" width="100%" height="100%">
+        </div>
+        <div class="d-flex p-2 bd-highlight">
+          <p>This is a render of a kitchen. With this project I tried creating an environment, like a indoor room
+            instead of singular objects. I used some textures, the bowl and the artwork in the back from a website
+            called <a style="color: black;" href="poliigon.com">Poliigon</a></p>
+        </div>
+        <div class="d-flex p-2">
+          <p>Facts:
+            <br> - Rendered in 2048 samples.
+            <br> - Took 90 minutes to render.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade thirdModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="d-flex p-2 bd-highlight">
+          <img src="Render_3.png" alt="Donut picture" width="100%">
+        </div>
+        <div class="d-flex p-2 bd-highlight">
+          <p>This is a render of a towel. It consists of a plane, with a lot of vertices. I then made the material cloth
+            and simulated it, so it fell in a realistic way. I then added lots of tiny hairs, to give it a realistic and nice look.
+          </p>
+        </div>
+        <div class="d-flex p-2">
+          <p>Facts:
+            <br> - The towel has 150.000 hairs.
+            <br> - It took 45 minutes to render.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade fourthModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="d-flex p-2 bd-highlight">
+          <img src="CoffeeRender1.png" alt="Donut picture" width="100%">
+        </div>
+        <div class="d-flex p-2 bd-highlight">
+          <p>This is a render of a cup of coffee I made using Blender. I created a cup and a plate,
+            then I created the liquid inside of the cup and gave it a coffee texture by UV-unwrapping it.
+          </p>
+        </div>
+        <div class="d-flex p-2">
+          <p>Facts:
+            <br> - The fluid inside of the cup is simulated.
+            <br> - If you look closely, you can see the condensation.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade fifthModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="d-flex p-2 bd-highlight">
+          <img src="DonutCupRender_1.png" alt="Donut picture" width="100%">
+        </div>
+        <div class="d-flex p-2 bd-highlight">
+          <p>This is a render of a choclate donut and a tea cup I made using fluid simulation, particle systems and 
+            texture painting.
+          </p>
+        </div>
+        <div class="d-flex p-2 bd-highlight">
+            <p>Facts:
+              <br> - About 700 sprinkle particles.
+              <br> - Took about 70 minutes to render.
+              <br> - Used 1024 samples
+            </p>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

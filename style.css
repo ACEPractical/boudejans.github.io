@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
+
+.section {
+    margin-top: 70px;
+}
+
+.sub-section{
+    margin-top: 10px;
+}
+
+.card-picture{
+    object-fit: cover;
+    width: 286.4px;
+    height: 161.1px;
+}
+
+.card-details-text{
+    color: black;
+}
+
+body{
+    background-image: url("Background2.png");
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h5{
+    font-family:'Nanum Gothic', sans-serif;
+    font-weight: "bolder";
+}
