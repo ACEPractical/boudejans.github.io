@@ -30,6 +30,11 @@
         margin-top: 20px;
         margin-bottom: 20px;
     }
+
+    .skill-picture-logo{
+        width: 200px;
+        align-self: center;
+    }
 }
 
 @media(min-width:600px) {
@@ -62,6 +67,11 @@
         margin-right: 15px;
         margin-left: 15px;
     }
+
+    .skill-picture-logo{
+        width: 200px;
+        align-self: center;
+    }
 }
 
 @media(min-width:1400px) {
@@ -93,6 +103,11 @@
         width: 300px;
         margin-right: 60px;
         margin-left: 60px;
+    }
+
+    .skill-picture-logo{
+        width: 300px;
+        align-self: center;
     }
 }
 
