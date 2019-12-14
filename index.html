@@ -139,6 +139,18 @@
           </div>
         </div>
       </div>
+      <div class="d-flex p-2 bd-highlight card-box justify-content-center">
+        <div class="card card-box">
+          <img src="Earth_1.png" class="card-img-top card-picture" alt="My first donut render">
+          <div class="card-body card-details-text">
+            <h5 class="card-title">Earth render</h5>
+            <p class="card-text">This is an image of planet earth from space.
+            </p>
+            <br>
+            <a href="#" class="btn btn-info" data-toggle="modal" data-target=".eightModal">Details</a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <!-- Blender Box-->
@@ -375,6 +387,29 @@
               <br> - I added a little bit of bloom to make lights pop a little bit more.
               <br> - I used 2048 samples and the denoise feature to make it really clear
               <br> - The render lasted almost two hours, the blanket and rug alone took about 45 minutes.
+            </p>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade eightModal justify-content-center" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg justify-content-center" style="margin-bottom: 40px;">
+      <div class="modal-content">
+        <div class="d-flex p-2 bd-highlight">
+          <img src="Earth_1.png" alt="Donut picture" width="100%" height="100%">
+        </div>
+        <div class="d-flex p-2 bd-highlight">
+          <p>This is a render of planet earth I made. It is a simple UV Sphere, together with another sphere for the clouds and 
+            atmosphere. I used four different maps from NASA to create the material of earth. I then made the sun and atmosphere, and
+            in the compiler I did some post-processing to create this scifi image.
+          </p>
+        </div>
+        <div class="d-flex p-2 bd-highlight">
+            <p>Facts:
+              <br> - The sun is just some post-processing effects combined with an emission material.
+              <br> - I used only 1 light-bounce, because it is in space.
+              <br> - The scene has only four objects, so 32 samples were enough to create a clear image.
             </p>
           </div>
       </div>
