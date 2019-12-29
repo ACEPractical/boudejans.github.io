@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155123521-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-155123521-1');
+  </script>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script defer src="https://use.fontawesome.com/releases/v5.11.2/js/all.js"></script>
+  <title>PORTFOLIO!</title>
+</head>
+
+<body>
+  <!-- NavBar -->
+  <nav class="navbar fixed-top navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Bas Oudejans</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link active" href="#portfolio">Portfolio</a>
+        <a class="nav-item nav-link" href="index.html#blender">Blender</a>
+        <a class="nav-item nav-link" href="index.html#about">About</a>
+        <a class="nav-item nav-link" href="index.html#contact"><i class="fas fa-id-card-alt"></i></a>
+      </div>
+    </div>
+  </nav>
+
+<!-- Portfolio -->
+<div id="portfolio" class="d-flex flex-column bg-dark text-white">
+    <div class="d-flex flex-column text-box-lg">
+        <div class="d-flex p-2 bd-highlight justify-content-center">
+            <h2>PORTFOLIO</h2>
+        </div>
+        <div class="d-flex justify-content-center text-box-sm">
+            <p>This is my portfolio. Here you can view all my renders I created using the program Blender. They are all
+                categorised in different collections.
+                If you would like to read more about a render, you can click on the 'Details' button below the render.
+            </p>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center text-box-sm" style="margin-top: 10%;">
+        <h2 style="text-decoration: underline;">
+            FOOD
+        </h2>
+    </div>
+    <div class="row justify-content-center">
+        <div class="d-flex p-2 bd-highlight card-box justify-content-center">
+            <div class="card card-box">
+                <img src="Render_1.png" class="card-img-top card-picture" alt="My first donut render">
+                <div class="card-body card-details-text">
+                    <h5 class="card-title">Donut render</h5>
+                    <p class="card-text">This is a render of a donut, made using texture painting.</p>
+                    <br>
+                    <a href="#" class="btn btn-info" data-toggle="modal" data-target=".firstModal">Details</a>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex p-2 bd-highlight card-box justify-content-center">
+            <div class="card card-box">
+                <img src="CoffeeRender1.png" class="card-img-top card-picture" alt="My first donut render">
+                <div class="card-body card-details-text">
+                    <h5 class="card-title">Coffee cup render</h5>
+                    <p class="card-text">Here is a render of a cup filled with coffee, using fluid simulation</p>
+                    <br>
+                    <a href="#" class="btn btn-info" data-toggle="modal" data-target=".fourthModal">Details</a>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex p-2 bd-highlight card-box justify-content-center">
+            <div class="card card-box">
+                <img src="DonutCupRender_1.png" class="card-img-top card-picture" alt="My first donut render">
+                <div class="card-body card-details-text">
+                    <h5 class="card-title">Breakfast render</h5>
+                    <p class="card-text">Here is a render of a tea cup and a donut.
+                    </p>
+                    <br>
+                    <a href="#" class="btn btn-info" data-toggle="modal" data-target=".fifthModal">Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center text-box-sm" style="margin-top: 3%;">
+        <h2 style="text-decoration: underline;">
+            ROOMS
+        </h2>
+    </div>
+    <div class="row justify-content-center">
+        <div class="d-flex p-2 bd-highlight card-box justify-content-center">
+            <div class="card card-box">
+                <img src="Render_4.png" class="card-img-top card-picture" alt="My first donut render">
+                <div class="card-body card-details-text">
+                    <h5 class="card-title">Kitchen render</h5>
+                    <p class="card-text" style="color: black">I did this project to learn about environments and scenes
+                        with
+                        multiple objects.</p>
+                    <a href="#" class="btn btn-info" data-toggle="modal" data-target=".secondModal">Details</a>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex p-2 bd-highlight card-box justify-content-center">
+            <div class="card card-box">
+                <img src="Bedroom_Render_1_Edited.png" class="card-img-top card-picture" alt="My first donut render">
+                <div class="card-body card-details-text">
+                    <h5 class="card-title">Bedroom render</h5>
+                    <p class="card-text">This is a really clear render of a modern bedroom.
+                    </p>
+                    <br>
+                    <a href="#" class="btn btn-info" data-toggle="modal" data-target=".seventhModal">Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center text-box-sm" style="margin-top: 3%;">
+        <h2 style="text-decoration: underline;">
+            ISOMETRIC ROOMS
+        </h2>
+    </div>
+    <div class="row justify-content-center">
+        <div class="d-flex p-2 bd-highlight card-box justify-content-center">
+            <div class="card card-box">
+                <img src="Isometric_80s_big.png" class="card-img-top card-picture" alt="My first donut render">
+                <div class="card-body card-details-text">
+                    <h5 class="card-title">80's apartment render</h5>
+                    <p class="card-text">This is an isometric render of a 1980's apartment</p>
+                    <br>
+                    <a href="#" class="btn btn-info" data-toggle="modal" data-target=".ninthModal">Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center text-box-sm" style="margin-top: 3%;">
+        <h2 style="text-decoration: underline;">
+            OTHER
+        </h2>
+    </div>
+    <div class="row justify-content-center" style="padding-bottom: 100px;">
+        <div class="d-flex p-2 bd-highlight card-box justify-content-center">
+            <div class="card card-box">
+                <img src="Render_3.png" class="card-img-top card-picture" alt="My first donut render"
+                    style="object-position: 0px -270px;">
+                <div class="card-body card-details-text">
+                    <h5 class="card-title">Towel render</h5>
+                    <p class="card-text">Here is a render of a towel, made using cloth simulation</p>
+                    <br>
+                    <a href="#" class="btn btn-info" data-toggle="modal" data-target=".thirdModal">Details</a>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex p-2 bd-highlight card-box justify-content-center">
+            <div class="card card-box">
+                <img src="Rope_Render_2_NoDenoise.png" class="card-img-top card-picture" alt="My first donut render">
+                <div class="card-body card-details-text">
+                    <h5 class="card-title">Rope render</h5>
+                    <p class="card-text">Here you can see a render of a rope attached to a mooring at the shore.
+                    </p>
+                    <br>
+                    <a href="#" class="btn btn-info" data-toggle="modal" data-target=".sixthModal">Details</a>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex p-2 bd-highlight card-box justify-content-center">
+            <div class="card card-box">
+                <img src="Earth_1.png" class="card-img-top card-picture" alt="My first donut render">
+                <div class="card-body card-details-text">
+                    <h5 class="card-title">Earth render</h5>
+                    <p class="card-text">This is an image of planet earth from space.
+                    </p>
+                    <br>
+                    <a href="#" class="btn btn-info" data-toggle="modal" data-target=".eightModal">Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <!-- MODALS -->
+  <div class="modal fade firstModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" style="margin-bottom: 40px;">
+      <div class="modal-content">
+        <div class="d-flex p-2 bd-highlight">
+          <img src="Render_1.png" alt="Donut picture" width="100%" height="100%">
+        </div>
+        <div class="d-flex p-2 bd-highlight">
+          <p>This is a render of a donut I made using Blender. I created the bun using sculpting and texturepainting. I
+            add the icing with more sculpting and added different kinds of sprinkles on top
+          </p>
+        </div>
+        <div class="d-flex p-2 bd-highlight">
+          <p>Facts:
+            <br> - 500 sprinkle particles
+            <br> - Took about 20 minutes to render
+          </p>
+        </div>
+        <div class="float-right" style="margin-right: 1%; margin-bottom: 1%;">
+            <button type="button" class="close" aria-label="Close" data-toggle="modal" data-target=".firstModal">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade secondModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" style="margin-bottom: 40px;">
+      <div class="modal-content">
+        <div class="d-flex p-2 bd-highlight">
+          <img src="Render_4.png" alt="Donut picture" width="100%" height="100%">
+        </div>
+        <div class="d-flex p-2 bd-highlight">
+          <p>This is a render of a kitchen. With this project I tried creating an environment, like a indoor room
+            instead of singular objects. I used some textures, the bowl and the artwork in the back from a website
+            called <a style="color: black;" href="poliigon.com">Poliigon</a></p>
+        </div>
+        <div class="d-flex p-2">
+          <p>Facts:
+            <br> - Rendered in 2048 samples.
+            <br> - Took 90 minutes to render.
+          </p>
+        </div>
+        <div class="float-right" style="margin-right: 1%; margin-bottom: 1%;">
+            <button type="button" class="close" aria-label="Close" data-toggle="modal" data-target=".secondModal">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade thirdModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog" style="margin-bottom: 40px;">
+      <div class="modal-content">
+        <div class="d-flex p-2 bd-highlight justify-content-center">
+          <img src="Render_3.png" alt="Donut picture">
+        </div>
+        <div class="d-flex p-2 bd-highlight">
+          <p>This is a render of a towel. It consists of a plane, with a lot of vertices. I then made the material cloth
+            and simulated it, so it fell in a realistic way. I then added lots of tiny hairs, to give it a realistic and nice look.
+          </p>
+        </div>
+        <div class="d-flex p-2">
+          <p>Facts:
+            <br> - The towel has 150.000 hairs.
+            <br> - It took 45 minutes to render.
+          </p>
+        </div>
+        <div class="float-right" style="margin-right: 1%; margin-bottom: 1%;">
+            <button type="button" class="close" aria-label="Close" data-toggle="modal" data-target=".thirdModal">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade fourthModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" style="margin-bottom: 40px;">
+      <div class="modal-content">
+        <div class="d-flex p-2 bd-highlight">
+          <img src="CoffeeRender1.png" alt="Donut picture" width="100%" height="100%">
+        </div>
+        <div class="d-flex p-2 bd-highlight">
+          <p>This is a render of a cup of coffee I made using Blender. I created a cup and a plate,
+            then I created the liquid inside of the cup and gave it a coffee texture by UV-unwrapping it.
+          </p>
+        </div>
+        <div class="d-flex p-2">
+          <p>Facts:
+            <br> - The fluid inside of the cup is simulated.
+            <br> - If you look closely, you can see the condensation.
+          </p>
+        </div>
+        <div class="float-right" style="margin-right: 1%; margin-bottom: 1%;">
+            <button type="button" class="close" aria-label="Close" data-toggle="modal" data-target=".fourthModal">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade fifthModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" style="margin-bottom: 40px;">
+      <div class="modal-content">
+        <div class="d-flex p-2 bd-highlight">
+          <img src="DonutCupRender_1.png" alt="Donut picture" width="100%" height="100%">
+        </div>
+        <div class="d-flex p-2 bd-highlight">
+          <p>This is a render of a choclate donut and a tea cup I made using fluid simulation, particle systems and 
+            texture painting.
+          </p>
+        </div>
+        <div class="d-flex p-2 bd-highlight">
+            <p>Facts:
+              <br> - About 700 sprinkle particles.
+              <br> - Took about 70 minutes to render.
+              <br> - Used 1024 samples
+            </p>
+          </div>
+          <div class="float-right" style="margin-right: 1%; margin-bottom: 1%;">
+            <button type="button" class="close" aria-label="Close" data-toggle="modal" data-target=".fifthModal">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade sixthModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" style="margin-bottom: 40px;">
+      <div class="modal-content">
+        <div class="d-flex p-2 bd-highlight">
+          <img src="Rope_Render_2_NoDenoise.png" alt="Donut picture" width="100%" height="100%">
+        </div>
+        <div class="d-flex p-2 bd-highlight">
+          <p>This is a render of a rope, consisting of smaller ropes bundled together. The rope was made using bump mapping.
+            You can also see the sea, which is simulated water thrown at the shore to create movement and waves.
+          </p>
+        </div>
+        <div class="d-flex p-2 bd-highlight">
+            <p>Facts:
+              <br> - The sea is simulated water with a real water shader.
+              <br> - The rope consists of smaller ropes.
+              <br> - The rope was formed using a bezier curve.
+              <br> - Two lamps were used for the shine of the water, and the shadow behind the rope.
+            </p>
+          </div>
+          <div class="float-right" style="margin-right: 1%; margin-bottom: 1%;">
+            <button type="button" class="close" aria-label="Close" data-toggle="modal" data-target=".sixthModal">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade seventhModal justify-content-center" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg justify-content-center" style="margin-bottom: 40px;">
+      <div class="modal-content">
+        <div class="d-flex p-2 bd-highlight">
+          <img src="Bedroom_Render_1_Edited.png" alt="Donut picture" width="100%" height="100%">
+        </div>
+        <div class="d-flex p-2 bd-highlight">
+          <p>This is a render of a bedroom. It's one of my more recent projects, in which I used the denoise node in Blender.
+            This is a new feature and it is a really intelligent system of removing noise. Together with a lot of samples, this
+            created a really clear image.
+          </p>
+        </div>
+        <div class="d-flex p-2 bd-highlight">
+            <p>Facts:
+              <br> - The blanket is real simulated cloth.
+              <br> - I added a little bit of bloom to make lights pop a little bit more.
+              <br> - I used 2048 samples and the denoise feature to make it really clear
+              <br> - The render lasted almost two hours, the blanket and rug alone took about 45 minutes.
+            </p>
+          </div>
+          <div class="float-right" style="margin-right: 1%; margin-bottom: 1%;">
+            <button type="button" class="close" aria-label="Close" data-toggle="modal" data-target=".seventhModal">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade eightModal justify-content-center" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg justify-content-center" style="margin-bottom: 40px;">
+      <div class="modal-content">
+        <div class="d-flex p-2 bd-highlight">
+          <img src="Earth_1.png" alt="Donut picture" width="100%" height="100%">
+        </div>
+        <div class="d-flex p-2 bd-highlight">
+          <p>This is a render of planet earth I made. It is a simple UV Sphere, together with another sphere for the clouds and 
+            atmosphere. I used four different maps from NASA to create the material of earth. I then made the sun and atmosphere, and
+            in the compiler I did some post-processing to create this scifi image.
+          </p>
+        </div>
+        <div class="d-flex p-2 bd-highlight">
+            <p>Facts:
+              <br> - The sun is just some post-processing effects combined with an emission material.
+              <br> - I used only 1 light-bounce, because it is in space.
+              <br> - The scene has only four objects, so 32 samples were enough to create a clear image.
+            </p>
+          </div>
+          <div class="float-right" style="margin-right: 1%; margin-bottom: 1%;">
+            <button type="button" class="close" aria-label="Close" data-toggle="modal" data-target=".eightModal">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade ninthModal justify-content-center" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg justify-content-center" style="margin-bottom: 40px;">
+      <div class="modal-content">
+        <div class="d-flex p-2 bd-highlight">
+          <img src="Isometric_80s_big.png" alt="Donut picture" width="100%" height="100%">
+        </div>
+        <div class="d-flex p-2 bd-highlight">
+          <p>This is a render of a 1980's looking apartment in a skyscraper. It is a isometric render, which is a flat picture,
+                Which doesn't show depth, even though in the scene there is depth. I tried to create a more basic scene, with basic shapes
+                and geometry, and a low poly count.
+          </p>
+        </div>
+        <div class="d-flex p-2 bd-highlight">
+            <p>Facts:
+              <br> - There are only 43.100 faces, which is a relatively low amount.
+              <br> - I used hybrid rendering, which is a new feature in Blender 2.8. It let's you render with both CPU and GPU, for faster render times.
+              <br> - Because the scene was pretty simple, and to try out the new hybrid rendering feature, I used 1024 samples, and still the render took only about 8 minutes.
+            </p>
+          </div>
+          <div class="float-right" style="margin-right: 1%; margin-bottom: 1%;">
+            <button type="button" class="close" aria-label="Close" data-toggle="modal" data-target=".ninthModal">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

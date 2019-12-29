@@ -35,7 +35,7 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+        <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
         <a class="nav-item nav-link" href="#blender">Blender</a>
         <a class="nav-item nav-link" href="#about">About</a>
         <a class="nav-item nav-link" href="#contact"><i class="fas fa-id-card-alt"></i></a>
@@ -54,26 +54,16 @@
   </div>
   
   <!-- Portfolio -->
-  <div id="portfolio" class="d-flex flex-column bg-dark text-white">
+  <div id="portfolio" class="d-flex flex-column bg-dark text-white text-box">
     <div class="d-flex p-2 bd-highlight section justify-content-center">
       <h2>PORTFOLIO</h2>
     </div>
-    <div class="d-flex justify-content-center text-box-sm">
-      <p>Here are some of my renders I made using the program 'Blender'. To view more about one of the renders, click on
-        the 'Details' button.</p>
+    <div class="d-flex justify-content-center">
+      <p>Here you can see some highlights from all my renders, however if you would like to view my full portfolio, and all the renders I created,
+        you can go to the portfolio page by clicking on the 'Portfolio' button in the navigation bar at the top of this website.
+      </p>
     </div>
     <div class="row justify-content-center">
-      <div class="d-flex p-2 bd-highlight card-box justify-content-center">
-        <div class="card card-box">
-          <img src="Render_1.png" class="card-img-top card-picture" alt="My first donut render">
-          <div class="card-body card-details-text">
-            <h5 class="card-title">Donut render</h5>
-            <p class="card-text">This is a render of a donut, made using texture painting.</p>
-            <br>
-            <a href="#" class="btn btn-info" data-toggle="modal" data-target=".firstModal">Details</a>
-          </div>
-        </div>
-      </div>
       <div class="d-flex p-2 bd-highlight card-box justify-content-center">
         <div class="card card-box">
           <img src="Render_4.png" class="card-img-top card-picture" alt="My first donut render">
@@ -97,8 +87,6 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="row justify-content-center">
       <div class="d-flex p-2 bd-highlight card-box justify-content-center">
         <div class="card card-box">
           <img src="CoffeeRender1.png" class="card-img-top card-picture" alt="My first donut render">
@@ -110,6 +98,8 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="row justify-content-center">
       <div class="d-flex p-2 bd-highlight card-box justify-content-center">
         <div class="card card-box">
           <img src="DonutCupRender_1.png" class="card-img-top card-picture" alt="My first donut render">
@@ -122,20 +112,6 @@
           </div>
         </div>
       </div>
-      <div class="d-flex p-2 bd-highlight card-box justify-content-center">
-        <div class="card card-box">
-          <img src="Rope_Render_2_NoDenoise.png" class="card-img-top card-picture" alt="My first donut render">
-          <div class="card-body card-details-text">
-            <h5 class="card-title">Rope render</h5>
-            <p class="card-text">Here you can see a render of a rope attached to a mooring at the shore.
-            </p>
-            <br>
-            <a href="#" class="btn btn-info" data-toggle="modal" data-target=".sixthModal">Details</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row justify-content-center" style="padding-bottom: 100px;">
       <div class="d-flex p-2 bd-highlight card-box justify-content-center">
         <div class="card card-box">
           <img src="Bedroom_Render_1_Edited.png" class="card-img-top card-picture" alt="My first donut render">
@@ -266,6 +242,11 @@
             <br> - Took about 20 minutes to render
           </p>
         </div>
+        <div class="float-right" style="margin-right: 1%; margin-bottom: 1%;">
+            <button type="button" class="close" aria-label="Close" data-toggle="modal" data-target=".firstModal">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
       </div>
     </div>
   </div>
@@ -286,6 +267,11 @@
             <br> - Rendered in 2048 samples.
             <br> - Took 90 minutes to render.
           </p>
+        </div>
+        <div class="float-right" style="margin-right: 1%; margin-bottom: 1%;">
+            <button type="button" class="close" aria-label="Close" data-toggle="modal" data-target=".secondModal">
+                <span aria-hidden="true">&times;</span>
+            </button>
         </div>
       </div>
     </div>
@@ -308,6 +294,11 @@
             <br> - It took 45 minutes to render.
           </p>
         </div>
+        <div class="float-right" style="margin-right: 1%; margin-bottom: 1%;">
+            <button type="button" class="close" aria-label="Close" data-toggle="modal" data-target=".thirdModal">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
       </div>
     </div>
   </div>
@@ -328,6 +319,11 @@
             <br> - The fluid inside of the cup is simulated.
             <br> - If you look closely, you can see the condensation.
           </p>
+        </div>
+        <div class="float-right" style="margin-right: 1%; margin-bottom: 1%;">
+            <button type="button" class="close" aria-label="Close" data-toggle="modal" data-target=".fourthModal">
+                <span aria-hidden="true">&times;</span>
+            </button>
         </div>
       </div>
     </div>
@@ -351,6 +347,11 @@
               <br> - Used 1024 samples
             </p>
           </div>
+          <div class="float-right" style="margin-right: 1%; margin-bottom: 1%;">
+            <button type="button" class="close" aria-label="Close" data-toggle="modal" data-target=".fifthModal">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
       </div>
     </div>
   </div>
@@ -374,6 +375,11 @@
               <br> - Two lamps were used for the shine of the water, and the shadow behind the rope.
             </p>
           </div>
+          <div class="float-right" style="margin-right: 1%; margin-bottom: 1%;">
+            <button type="button" class="close" aria-label="Close" data-toggle="modal" data-target=".sixthModal">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
       </div>
     </div>
   </div>
@@ -398,6 +404,11 @@
               <br> - The render lasted almost two hours, the blanket and rug alone took about 45 minutes.
             </p>
           </div>
+          <div class="float-right" style="margin-right: 1%; margin-bottom: 1%;">
+            <button type="button" class="close" aria-label="Close" data-toggle="modal" data-target=".seventhModal">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
       </div>
     </div>
   </div>
@@ -421,6 +432,11 @@
               <br> - The scene has only four objects, so 32 samples were enough to create a clear image.
             </p>
           </div>
+          <div class="float-right" style="margin-right: 1%; margin-bottom: 1%;">
+            <button type="button" class="close" aria-label="Close" data-toggle="modal" data-target=".eightModal">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
       </div>
     </div>
   </div>
