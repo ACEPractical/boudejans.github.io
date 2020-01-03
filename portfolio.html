@@ -136,7 +136,7 @@
     <div class="row justify-content-center">
         <div class="d-flex p-2 bd-highlight card-box justify-content-center">
             <div class="card card-box">
-                <img src="Isometric_80s_big.png" class="card-img-top card-picture" alt="My first donut render">
+                <img src="Isometric_80s_big.png" class="card-img-top card-picture" alt="80s apartment render">
                 <div class="card-body card-details-text">
                     <h5 class="card-title">80's apartment render</h5>
                     <p class="card-text">This is an isometric render of a 1980's apartment</p>
@@ -145,6 +145,17 @@
                 </div>
             </div>
         </div>
+        <div class="d-flex p-2 bd-highlight card-box justify-content-center">
+          <div class="card card-box">
+              <img src="Isometric_Bedroom_big.png" class="card-img-top card-picture" alt="Isometric Bedroom Render">
+              <div class="card-body card-details-text">
+                  <h5 class="card-title">Isometric Bedroom render</h5>
+                  <p class="card-text">This is an isometric render of a student bedroom.</p>
+                  <br>
+                  <a href="#" class="btn btn-info" data-toggle="modal" data-target=".Iso_Bedroom_Modal">Details</a>
+              </div>
+          </div>
+      </div>
     </div>
     <div class="d-flex justify-content-center text-box-sm" style="margin-top: 3%;">
         <h2 style="text-decoration: underline;">
@@ -154,7 +165,7 @@
     <div class="row justify-content-center" style="padding-bottom: 100px;">
         <div class="d-flex p-2 bd-highlight card-box justify-content-center">
             <div class="card card-box">
-                <img src="Render_3.png" class="card-img-top card-picture" alt="My first donut render"
+                <img src="Render_3.png" class="card-img-top card-picture" alt="Towel render in blender"
                     style="object-position: 0px -270px;">
                 <div class="card-body card-details-text">
                     <h5 class="card-title">Towel render</h5>
@@ -166,7 +177,7 @@
         </div>
         <div class="d-flex p-2 bd-highlight card-box justify-content-center">
             <div class="card card-box">
-                <img src="Rope_Render_2_NoDenoise.png" class="card-img-top card-picture" alt="My first donut render">
+                <img src="Rope_Render_2_NoDenoise.png" class="card-img-top card-picture" alt="Rope render in blender">
                 <div class="card-body card-details-text">
                     <h5 class="card-title">Rope render</h5>
                     <p class="card-text">Here you can see a render of a rope attached to a mooring at the shore.
@@ -178,7 +189,7 @@
         </div>
         <div class="d-flex p-2 bd-highlight card-box justify-content-center">
             <div class="card card-box">
-                <img src="Earth_1.png" class="card-img-top card-picture" alt="My first donut render">
+                <img src="Earth_1.png" class="card-img-top card-picture" alt="Sci fi Earth render using blender">
                 <div class="card-body card-details-text">
                     <h5 class="card-title">Earth render</h5>
                     <p class="card-text">This is an image of planet earth from space.
@@ -189,6 +200,26 @@
             </div>
         </div>
     </div>
+
+    <div class="d-flex justify-content-center text-box-sm" style="margin-top: 3%;">
+      <h2 style="text-decoration: underline;">
+          ANIMATIONS
+      </h2>
+  </div>
+  <div class="row justify-content-center" style="padding-bottom: 100px;">
+      <div class="d-flex p-2 bd-highlight card-box justify-content-center">
+          <div class="card card-box">
+              <img src="Earth_1.png" class="card-img-top card-picture" alt="Sci fi Earth render using blender">
+              <div class="card-body card-details-text">
+                  <h5 class="card-title">Earth animation</h5>
+                  <p class="card-text">This is an animation of a sci-fi earth rotating. Click on details to view the animation.
+                  </p>
+                  <br>
+                  <a href="#" class="btn btn-info" data-toggle="modal" data-target=".Animation_Earth_Modal">Details</a>
+              </div>
+          </div>
+      </div>
+  </div>
 </div>
 
   <!-- MODALS -->
@@ -429,6 +460,61 @@
           </div>
           <div class="float-right" style="margin-right: 1%; margin-bottom: 1%;">
             <button type="button" class="close" aria-label="Close" data-toggle="modal" data-target=".ninthModal">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade Iso_Bedroom_Modal justify-content-center" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg justify-content-center" style="margin-bottom: 40px;">
+      <div class="modal-content">
+        <div class="d-flex p-2 bd-highlight">
+          <img src="Isometric_Bedroom_big.png" alt="Donut picture" width="100%" height="100%">
+        </div>
+        <div class="d-flex p-2 bd-highlight">
+          <p>This is a isometric render of a student bedroom. The bedsheets were simulated using the cloth simulation and the pillows were sculpted using the built-in sculpting mode.
+            It was rendered in cycles in 4K using 1024 samples.
+          </p>
+        </div>
+        <div class="d-flex p-2 bd-highlight">
+            <p>Facts:
+              <br> - I used images for the desktop, the printer, the clock and the poster, which reduced render times a bit.
+              <br> - The render took about 45 minutes.
+              <br> - The scene consists of a lot of basic geomatric shapes, even though it looks organic.
+            </p>
+          </div>
+          <div class="float-right" style="margin-right: 1%; margin-bottom: 1%;">
+            <button type="button" class="close" aria-label="Close" data-toggle="modal" data-target=".Iso_Bedroom_Modal">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade Animation_Earth_Modal justify-content-center" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg justify-content-center" style="margin-bottom: 40px;">
+      <div class="modal-content">
+        <div class="d-flex p-2 bd-highlight">
+          <video width="100%" height="100%" autoplay loop>
+            <source src="earth.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="d-flex p-2 bd-highlight">
+          <p>This is an animation of a sci-fi themed earth rotating a full 360 degrees. It is rendered using cycles in 4K.
+          </p>
+        </div>
+        <div class="d-flex p-2 bd-highlight">
+            <p>Facts:
+              <br> - I used a relatively low sample count, because it actually is a very basic scenes. It consists of only 3 spheres for earth, and 1 sphere for the sun.
+              <br> - Because the sample amount was quite low, the part that actually took the longest, was post-processing and compositing.
+              <br> - I used 360 frames, at 60 frames per second, to create a 6 second long animation in 4K.
+            </p>
+          </div>
+          <div class="float-right" style="margin-right: 1%; margin-bottom: 1%;">
+            <button type="button" class="close" aria-label="Close" data-toggle="modal" data-target=".Animation_Earth_Modal">
                 <span aria-hidden="true">&times;</span>
             </button>
         </div>
