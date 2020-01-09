@@ -84,7 +84,7 @@
     }
 }
 
-@media(min-width:1400px) {
+@media(min-width:1200px) {
     .text-box{
         padding-top: 5%;
         padding-left: 20%;
@@ -121,7 +121,7 @@
     }
 
     .carousel-size{
-        margin-top: 2%;
+        margin-top: 0%;
         width: 88.5%;
     }
 }
