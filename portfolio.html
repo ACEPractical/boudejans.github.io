@@ -162,7 +162,7 @@
             OTHER
         </h2>
     </div>
-    <div class="row justify-content-center" style="padding-bottom: 100px;">
+    <div class="row justify-content-center">
         <div class="d-flex p-2 bd-highlight card-box justify-content-center">
             <div class="card card-box">
                 <img src="Render_3.png" class="card-img-top card-picture" alt="Towel render in blender"
@@ -199,6 +199,19 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="row justify-content-center" style="padding-bottom: 100px;">
+      <div class="d-flex p-2 bd-highlight card-box justify-content-center">
+        <div class="card card-box">
+          <img src="Porsche_3.png" class="card-img-top card-picture" alt="Porsche Taycan render in blender">
+          <div class="card-body card-details-text">
+            <h5 class="card-title">Porsche Taycan render</h5>
+            <p class="card-text">This is a render of the newly released Porsche Taycan</p>
+            <br>
+            <a href="#" class="btn btn-info" data-toggle="modal" data-target=".porscheModal">Details</a>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="d-flex justify-content-center text-box-sm" style="margin-top: 3%;">
@@ -521,6 +534,33 @@
       </div>
     </div>
   </div>
+
+  <div class="modal fade porscheModal justify-content-center" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg justify-content-center" style="margin-bottom: 40px;">
+      <div class="modal-content">
+        <div class="d-flex p-2 bd-highlight">
+          <img src="Porsche_3.png">
+        </div>
+        <div class="d-flex p-2 bd-highlight">
+          <p>This is a 4K render of the new Porsche Taycan Turbo, in my opinion a beautifull car. I rendered it using cycles and a HDRI you can find here: <a href="https://hdrihaven.com/hdri/?c=outdoor&h=ostrich_road">HDRIHaven: Ostrich Road</a>
+          </p>
+        </div>
+        <div class="d-flex p-2 bd-highlight">
+            <p>Facts:
+              <br> - The scene consists of two things: A plane which represents the ground, and the car itself.
+              <br> - I used an HDRI to create the environment, the plane is there to use for a technic called a 'Shadow Catcher', which is an invisible plane, which is used by other objects to cast shadows.
+              <br> - Creating cars requires different techniques, because a car has lots of sharp creases and edges, while still having a organic flow. It was hard to make the car look organic, while still having sharp edges.
+            </p>
+          </div>
+          <div class="float-right" style="margin-right: 1%; margin-bottom: 1%;">
+            <button type="button" class="close" aria-label="Close" data-toggle="modal" data-target=".porscheModal">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
